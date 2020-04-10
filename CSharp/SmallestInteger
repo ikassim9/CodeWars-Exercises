@@ -1,1 +1,17 @@
+// Find smallest number in array. [1,4,0,7] => 0 is smallest number.
 
+
+public class Kata 
+{
+    public static int FindSmallestInt(int[] args) 
+    {
+    int smallest = args[0];
+    foreach(var small in args){
+    if (small < smallest){
+    smallest = small;
+ }   
+
+}
+return smallest;
+}
+}
